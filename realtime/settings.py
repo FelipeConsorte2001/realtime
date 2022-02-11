@@ -131,7 +131,6 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # especifica do channels
 ASGI_APPLICATION = 'realtime.routing.application'
 
-
 CHANNEL_LAYERS = {
     'default': {
         'BACKEND': 'channels_redis.core.RedisChannelLayer',

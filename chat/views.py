@@ -2,6 +2,7 @@ from django.views.generic import TemplateView
 from django.utils.safestring import mark_safe
 import json
 
+
 class IndexView(TemplateView):
     template_name = 'index.html'
 
